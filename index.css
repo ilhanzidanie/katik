@@ -1,0 +1,129 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0 10px;
+}
+
+span {
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.nav a {
+  text-align: center;
+  color: black;
+  align-items: center;
+  padding: 10px 0;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.nav a:hover {
+  background-color: blue;
+  color: white;
+  background-color: dodgerblue;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.nav a:focus {
+  background-color: blue;
+  color: white;
+  background-color: dodgerblue;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.card {
+  margin: 50px 20px 100px 20px;
+  border: 1px dodgerblue solid;
+  border-radius: 6px;
+  box-shadow: 17px 32px 29px -14px rgba(0, 0, 0, 0.38);
+  -webkit-box-shadow: 17px 32px 29px -14px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 17px 32px 29px -14px rgba(0, 0, 0, 0.38);
+}
+
+.judul {
+  margin: 0;
+  color: white;
+  text-align: center;
+  background-color: dodgerblue;
+  padding: 20px;
+}
+
+.card div {
+  padding: 20px;
+}
+
+.bangundatar {
+  display: block;
+  margin: auto;
+  padding: 35px;
+}
+
+.form-group {
+  position: relative;
+  padding: 0 20px;
+  margin: 12px 0;
+  margin-bottom: 65px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 10px -10px;
+  border-radius: 5px;
+  border: 1px black solid;
+  outline: none;
+}
+
+.form-group input:focus {
+  border: 2px solid dodgerblue;
+  outline: none;
+}
+
+.btn-hitung {
+  display: flex;
+  padding: 10px 15px;
+  color: white;
+  border: 1px solid dodgerblue;
+  border-radius: 6px;
+  text-decoration: none;
+  margin: auto;
+  background-color: dodgerblue;
+  transition: 0.3s;
+}
+
+.btn-hitung:hover,
+.btn-hitung:focus {
+  background-color: darkblue;
+  border: 1px solid darkblue;
+}
+
+.btn-reset {
+  position: absolute;
+  bottom: -50px;
+  right: 10px;
+  padding: 10px 15px;
+  color: white;
+  border: 1px solid orange;
+  border-radius: 6px;
+  text-decoration: none;
+  background-color: orange;
+  transition: 0.3s;
+}
+
+.btn-reset:hover,
+.btn-reset:focus {
+  background-color: orangered;
+  border: 1px solid orangered;
+}
