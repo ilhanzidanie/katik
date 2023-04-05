@@ -33,7 +33,7 @@ function hitungluasJajar() {
 
   let luas = alas * tinggi;
   document.getElementById("rumusluasJajar").innerHTML =
-    "L = a x t <br/>" + "L = " + alas + "x" + tinggi;
+    "L = a x t <br/>" + "L = " + alas + " x " + tinggi;
   document.getElementById("hasilluasJajar").innerHTML = "L = " + luas;
 }
 
@@ -68,10 +68,10 @@ function resetkelilingSegitiga() {
 
 //RESET LUAS JAJAR GENJANG
 function resetluasJajar() {
-  document.getElementsById("alasJajar").value = "";
-  document.getElementsById("tinggiJajar").value = "";
-  document.getElementsById("rumusluasJajar").innerHTML = "";
-  document.getElementsById("hasilluasJajar").innerHTML = "";
+  document.getElementById("alasJajar").value = "";
+  document.getElementById("tinggiJajar").value = "";
+  document.getElementById("rumusluasJajar").innerHTML = "";
+  document.getElementById("hasilluasJajar").innerHTML = "";
 }
 
 //RESET KELILING JAJAR GENJANG
